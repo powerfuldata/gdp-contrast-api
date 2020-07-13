@@ -1,0 +1,24 @@
+{
+  "name": "gdp-contrast-api",
+  "version": "1.0.0",
+  "description": "中国gdp对应国家",
+  "main": "index.js",
+  "author": "wuchao",
+  "license": "MIT",
+  "scripts": {
+    "start":"nodemon"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.22",
+    "@types/sequelize": "^4.28.9",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3"
+  }
+}
