@@ -6,10 +6,12 @@
   "author": "wuchao",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/express": "^4.17.7",
+    "@types/jest": "^26.0.4",
     "@types/node": "^14.0.22",
     "@types/sequelize": "^4.28.9",
     "cross-env": "^7.0.2",
